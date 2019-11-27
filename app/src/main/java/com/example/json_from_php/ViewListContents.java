@@ -12,7 +12,7 @@ import java.util.ArrayList;
 
 public class ViewListContents extends AppCompatActivity {
 
-    DظظatabaseHelper myDB;
+    DatabaseHelper myDB;
     ArrayList<User> userList;
     ListView listView;
     User user;
