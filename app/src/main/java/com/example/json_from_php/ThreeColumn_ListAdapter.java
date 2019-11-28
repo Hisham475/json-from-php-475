@@ -28,21 +28,17 @@ public class ThreeColumn_ListAdapter extends ArrayAdapter<User> {
         User user = users.get(position);
 
         if (user != null) {
-            TextView firstName = (TextView) convertView.findViewById(R.id.textFirstName);
-            TextView lastName = (TextView) convertView.findViewById(R.id.textLastName);
-            TextView favFood = (TextView) convertView.findViewById(R.id.textFavFood);
-            TextView date = (TextView) convertView.findViewById(R.id.textDate);
-            if (firstName != null) {
-                firstName.setText(user.getFirstName());
+            TextView value1 = (TextView) convertView.findViewById(R.id.textFirstName);
+            TextView value2 = (TextView) convertView.findViewById(R.id.textLastName);
+            TextView value3 = (TextView) convertView.findViewById(R.id.textFavFood);
+            if (value1 != null) {
+                value1.setText(user.getValue1());
             }
-            if (lastName != null) {
-                lastName.setText((user.getLastName()));
+            if (value2 != null) {
+                value2.setText((user.getValue2()));
             }
-            if (favFood != null) {
-                favFood.setText((user.getFavFood()));
-            }
-            if (date != null) {
-                date.setText((user.getDate()));
+            if (value3 != null) {
+                value3.setText((user.getValue3()));
             }
         }
 

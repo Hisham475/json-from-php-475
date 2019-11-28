@@ -4,48 +4,40 @@ package com.example.json_from_php;
  * Created by Mitch on 2016-05-13.
  */
 public class User {
-    private String FirstName;
-    private String LastName;
-    private String FavFood;
-    private String Date;
+    private String Value1;
+    private String Value2;
+    private String Value3;
 
-    public User(String fName, String lName, String fFood, String dDate){
-        FirstName = fName;
-        LastName = lName;
-        FavFood = fFood;
-        Date = dDate;
+
+    public User(String value1, String value2, String value3){
+        Value1 = value1;
+        Value2 = value2;
+        Value3 = value3;
     }
 
-    public String getFirstName() {
-        return FirstName;
+    public String getValue1() {
+        return Value1;
     }
 
-    public void setFirstName(String firstName) {
-        FirstName = firstName;
+    public void setValue1(String value1) {
+        Value1 = value1;
     }
 
-    public String getLastName() {
-        return LastName;
+    public String getValue2() {
+        return Value2;
     }
 
-    public void setLastName(String lastName) {
-        LastName = lastName;
+    public void setValue2(String value2) {
+        Value2 = value2;
     }
 
-    public String getFavFood() {
-        return FavFood;
+    public String getValue3() {
+        return Value3;
     }
 
-    public void setFavFood(String favFood) {
-        FavFood = favFood;
+    public void setValue3(String value3) {
+        Value3 = value3;
     }
 
-    public String getDate() {
-        return Date;
-    }
-
-    public void setDate(String date) {
-        Date = date;
-    }
 
 }

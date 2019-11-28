@@ -8,7 +8,7 @@
         android:id="@+id/textFirstName"
         android:layout_width="100dp"
         android:layout_height="match_parent"
-        android:layout_weight="30"
+        android:layout_weight="33"
         android:textSize="20sp"
         android:textStyle="bold" />
 
@@ -16,7 +16,7 @@
         android:id="@+id/textLastName"
         android:layout_width="100dp"
         android:layout_height="match_parent"
-        android:layout_weight="30"
+        android:layout_weight="33"
         android:textSize="20sp"
         android:textStyle="bold" />
 
@@ -24,15 +24,7 @@
         android:id="@+id/textFavFood"
         android:layout_width="100dp"
         android:layout_height="match_parent"
-        android:layout_weight="30"
-        android:textSize="20sp"
-        android:textStyle="bold" />
-
-    <TextView
-        android:id="@+id/textDate"
-        android:layout_width="100dp"
-        android:layout_height="match_parent"
-        android:layout_weight="30"
+        android:layout_weight="33"
         android:textSize="20sp"
         android:textStyle="bold" />
 

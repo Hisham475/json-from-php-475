@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
     TextView textview;
 
     phpConn phpC = new phpConn();
-    final String fetch = "http://192.168.1.5/sqli/fetch2json.php";
+    final String fetch = "http://192.168.1.143/sqli/fetch2json.php";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
